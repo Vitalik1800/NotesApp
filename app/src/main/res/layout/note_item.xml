@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteId"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/note_id"
+        android:textColor="#000"
+        />
+
+
+    <TextView
+        android:layout_below="@id/noteId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteName"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/note_name"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_below="@id/noteName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteDesc"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/note_desc"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_below="@id/noteDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteDate"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/note_date"
+        android:textColor="#000"
+        />
+
+    <Button
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="1dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:id="@+id/buttonDelete"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"/>
+    
+
+</RelativeLayout>
